@@ -958,7 +958,7 @@ main .select__control {
     align-items: center;
     border: none;
     color: #fff;
-    padding: none;
+    padding: 0;
     background: none;
     outline: none;
 }
