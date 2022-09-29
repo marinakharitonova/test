@@ -842,7 +842,8 @@ main .select__field .selectize-input .remove {
     line-height: 0;
     background: url("../assets/icons/remove.svg") no-repeat center !important;
     border: none !important;
-    pointer-events: all
+    pointer-events: all;
+    outline: none !important;
 }
 
 main .select__field .selectize-input input {
@@ -956,7 +957,10 @@ main .select__control {
     display: inline-flex;
     align-items: center;
     border: none;
-    color: #fff
+    color: #fff;
+    padding: none;
+    background: none;
+    outline: none;
 }
 
 main .select__control:before {
