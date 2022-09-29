@@ -847,6 +847,8 @@ main .select__field .selectize-input .remove {
 }
 
 main .select__field .selectize-input input {
+    height: 47px !important;
+    box-sizing: border-box;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
