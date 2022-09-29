@@ -959,6 +959,10 @@ main .select__dropdown .selectize-dropdown .option.active {
 }
 
 main .select__control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 30px !important;
     display: inline-flex;
     align-items: center;
     border: none;
