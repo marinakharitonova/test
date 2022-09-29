@@ -847,6 +847,9 @@ main .select__field .selectize-input .remove {
 }
 
 main .select__field .selectize-input input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     display: none !important;
     width: 100% !important;
     position: absolute !important;
